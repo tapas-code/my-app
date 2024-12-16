@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
-import { Event } from "./types"
+import { Event } from "../types"
 import { Droppable, Draggable } from 'react-beautiful-dnd'
 
 interface DayProps {
