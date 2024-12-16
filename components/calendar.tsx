@@ -10,7 +10,7 @@ import { Day } from './day'
 import { EventForm } from './event-form'
 import { EventList } from './event-list'
 import { DayEvents, Event } from '../types'
-import { getDaysInMonth, formatDate, getEventsForDay, addEvent, updateEvent, deleteEvent, filterEvents, checkEventOverlap, moveEvent } from '../utils'
+import { getDaysInMonth, formatDate, getEventsForDay, updateEvent, deleteEvent, filterEvents, checkEventOverlap, moveEvent } from '../utils'
 
 const DAYS_OF_WEEK = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
